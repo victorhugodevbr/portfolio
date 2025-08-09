@@ -11,7 +11,7 @@ export const MainLayout = styled('section', {
     paddingTop: ['8vh', '10vh', '11.85vh'],
     position: 'relative',
     overflow: 'hidden',
-    backgroundImage: "url('/images/main-background.svg')",
+    backgroundImage: "url('/images/main-background.png')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     gap: '2vw',
