@@ -5,7 +5,7 @@ export const FirstDescriptionBackground = styled('div', {
         position: 'absolute',
         width: '100%',
         height: '100%',
-        backgroundImage: "url('/images/first-description-background.png')",
+        backgroundImage: "url('/images/second-section/first-description-background.png')",
         backgroundSize: '100% 100%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',

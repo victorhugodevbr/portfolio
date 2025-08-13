@@ -6,7 +6,7 @@ export const PersonalImage = styled('div', {
         width: '33.23vw',     
         aspectRatio: '1 / 1', 
         overflow: 'hidden',
-        backgroundImage: "url('/images/personal-image.png')",
+        backgroundImage: "url('/images/first-section/personal-image.png')",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     },

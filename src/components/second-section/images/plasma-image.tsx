@@ -6,7 +6,7 @@ export const PlasmaImage = styled('div', {
         width: '100%',
         height: '100vh',
         overflow: 'hidden',
-        backgroundImage: "url('/images/left-content.png')",
+        backgroundImage: "url('/images/second-section/left-content.png')",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
