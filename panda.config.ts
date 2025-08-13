@@ -24,6 +24,9 @@ export default defineConfig({
           secondary: {
             value: "#2000E6",
           },
+          tertiary: {
+            value: "#242938",
+          },
           primaryRubBank: {
             value: "#6B7AE5",
           },
