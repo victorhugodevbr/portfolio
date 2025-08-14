@@ -16,5 +16,16 @@ export const Container = styled('div', {
         flexDirection: 'row',
       },
     },
+    alignment: {
+      start: {
+        alignItems: 'flex-start',
+      },
+      center: {
+        alignItems: 'center',
+      },
+      end: {
+        alignItems: 'flex-end',
+      },
+    },
   },
 });
