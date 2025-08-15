@@ -27,5 +27,19 @@ export const Container = styled('div', {
         alignItems: 'flex-end',
       },
     },
+    justify: {
+      start: {
+        justifyContent: 'flex-start',
+      },
+      center: {
+        justifyContent: 'center',
+      },
+      end: {
+        justifyContent: 'flex-end',
+      },
+      spaceBetween: {
+        justifyContent: 'space-between',
+      },
+    },
   },
 });
