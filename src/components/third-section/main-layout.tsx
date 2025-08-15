@@ -7,7 +7,7 @@ export const MainLayout = styled('section', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    padding: '0 10.73vw 11.85vh 10.73vw',
+    padding: '0 10.73vw',
     position: 'relative',
     overflow: 'hidden',
     backgroundImage: "url('/images/third-section/third-section-background.png')",
