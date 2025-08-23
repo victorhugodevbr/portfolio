@@ -81,7 +81,7 @@ export const AnswerText = styled('text', {
 
 export const BottomBigText = styled('text', {
   base: {
-    textAlign: 'start',
+    textAlign: 'center',
     fontFamily: 'SF Pro Display',
     fontStyle: 'normal',
     fontWeight: '700',
