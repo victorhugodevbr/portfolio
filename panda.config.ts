@@ -44,6 +44,16 @@ export default defineConfig({
           },
         },
       },
+      keyframes: {
+        flicker: {
+          "0%": { filter: "brightness(100%)" },
+          "20%": { filter: "brightness(90%)" },
+          "40%": { filter: "brightness(100%)" },
+          "60%": { filter: "brightness(90%)" },
+          "80%": { filter: "brightness(100%)" },
+          "100%": { filter: "brightness(100%)" },
+        },
+      },
     },
   },
 });

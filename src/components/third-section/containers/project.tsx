@@ -13,6 +13,7 @@ export const ProjectBlock = styled('div', {
     willChange: 'transform',
     '&:hover': {
       transform: 'scale(1.04)',
+      animation: "flicker 7s infinite",
     },
   },
 });
