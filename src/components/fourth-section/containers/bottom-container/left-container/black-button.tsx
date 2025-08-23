@@ -1,6 +1,8 @@
+"use client";
 import { styled } from "styled-system/jsx";
+import React from "react";
 
-export const BlackButton = styled('button', {
+export const BlackButtonWidget = styled('button', {
   base: {
     display: 'flex',
     flexDirection: 'row',
@@ -22,3 +24,14 @@ export const BlackButton = styled('button', {
     }
   },
 });
+
+interface BlackButtonWidgetProps {
+  link: string;
+  children: React.ReactNode;
+}
+
+export const BlackButton = ({ link, children }: BlackButtonWidgetProps) => (
+  <BlackButtonWidget onClick={() => window.open(link, "_blank")}>
+    {children}
+  </BlackButtonWidget>
+);
