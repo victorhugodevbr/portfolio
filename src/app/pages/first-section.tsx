@@ -8,8 +8,8 @@ export default function FirstSection() {
     <MainLayout>
       <Container direction="column">
         <Text size="lg">Hi, I am</Text>
-        <Text size="xl">VICTOR HUGO</Text>
-        <Text size="md">Full Stack developer / UI & UX Designer</Text>
+        <Text size="xl"><span translate="no">VICTOR HUGO</span></Text>
+        <Text size="md"><span translate="no">Full Stack</span> developer / UI & UX Designer</Text>
       </Container>
       <PersonalImage/>
     </MainLayout>

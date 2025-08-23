@@ -27,7 +27,7 @@ export default function FourthSection() {
               If  you have any other questions, you can contact me by email
             </LeftInfoText>
             <LeftInfoText size="md">
-              victorhugovicentedev@hotmail.com
+              <span translate="no">victorhugovicentedev@hotmail.com</span>
             </LeftInfoText>
           </Container>
         </LeftTopContainer>
@@ -60,13 +60,13 @@ export default function FourthSection() {
               </BottomBigText>
             </Container>
             <Container direction="row" alignment="center" gap="12px">
-              <BlackButton>
+              <BlackButton link="https://www.linkedin.com/in/victor-hugo-vicente-dos-santos-05a259221">
                 <BlackButtonText>
                   My Linkedin
                 </BlackButtonText>
                 <LinkedinIcon />
               </BlackButton>
-              <BlackButton>
+              <BlackButton link="https://drive.google.com/file/d/1bXHjv5n0YI3b2jQZlZ4p6k3c1H6kJv3g/view?usp=sharing">
                 <BlackButtonText>
                   Download my resume
                 </BlackButtonText>
