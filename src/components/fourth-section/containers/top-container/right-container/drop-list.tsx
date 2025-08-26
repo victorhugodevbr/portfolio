@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { styled } from "styled-system/jsx";
 import { AnswerText, QuestionText } from "../../../typography/text";

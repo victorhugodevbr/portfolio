@@ -1,3 +1,4 @@
+'use client';
 import { Container } from "@/components/containers";
 import { LeftContainer } from "@/components/second-section/containers/left-container/left-container";
 import { DescriptionBlock, DescriptionBlockContent } from "@/components/second-section/containers/right-container/description-block";
@@ -8,40 +9,42 @@ import { SecondDescriptionBackground } from "@/components/second-section/images/
 import { ThirdDescriptionBackground } from "@/components/second-section/images/third-description-background";
 import { MainLayout } from "@/components/second-section/main-layout";
 import { CardContentText, CardTitleText, TitleText } from "@/components/second-section/typography/text";
+import { useTranslations } from "next-intl";
 
 export default function SecondSection() {
+  const t = useTranslations('SecondSection');
   return (
     <MainLayout>
       <LeftContainer>
         <PlasmaImage/>
       </LeftContainer>
       <RightContainer>
-        <TitleText>Sou especialista em</TitleText>
+        <TitleText>{t('Title')}</TitleText>
         <Container direction="column">
           <DescriptionBlock>
             <FirstDescriptionBackground/>
             <DescriptionBlockContent>
-              <CardTitleText>Frontend Developer</CardTitleText>
+              <CardTitleText>{t('FirstCardTitle')}</CardTitleText>
               <CardContentText>
-                Desenvolvo interfaces modernas com Flutter, React e Next.js, priorizando acessibilidade, responsividade e design system para garantir consistência e usabilidade em escala.
+                {t('FirstCardContent')}
               </CardContentText>
             </DescriptionBlockContent>
           </DescriptionBlock>
           <DescriptionBlock>
             <SecondDescriptionBackground/>
             <DescriptionBlockContent>
-              <CardTitleText>Backend & Database</CardTitleText>
+              <CardTitleText>{t('SecondCardTitle')}</CardTitleText>
               <CardContentText>
-                Estruturo aplicações com arquitetura escalável, seguindo princípios de Clean Code, utilizando Prisma ORM e testes automatizados para garantir integrações confiáveis e manutenção eficiente.
+                {t('SecondCardContent')}
               </CardContentText>
             </DescriptionBlockContent>
           </DescriptionBlock>
           <DescriptionBlock>
             <ThirdDescriptionBackground/>
             <DescriptionBlockContent>
-              <CardTitleText>UI/UX Designer</CardTitleText>
+              <CardTitleText>{t('ThirdCardTitle')}</CardTitleText>
               <CardContentText>
-                Desenho experiências centradas no usuário com prototipação ágil, aplicação das heurísticas de Nielsen, design system consistente e foco em responsividade mobile-first.
+                {t('ThirdCardContent')}
               </CardContentText>
             </DescriptionBlockContent>
           </DescriptionBlock>

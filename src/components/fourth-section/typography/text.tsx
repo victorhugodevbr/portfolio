@@ -67,7 +67,7 @@ export const QuestionText = styled('text', {
   },
 });
 
-export const AnswerText = styled('text', {
+export const AnswerText = styled('span', {
   base: {
     textAlign: 'left',
     fontFamily: 'SF Pro Display',

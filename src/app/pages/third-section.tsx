@@ -1,3 +1,4 @@
+'use client';
 import { Container } from "@/components/containers";
 import { ProjectBlock, ProjectBlockContent, ProjectBlockContentLeft, ProjectBlockContentRight } from "@/components/third-section/containers/project";
 import { FirstProjectBackground } from "@/components/third-section/images/first-project-background";
@@ -8,21 +9,23 @@ import { ThirdProjectBackground } from "@/components/third-section/images/third-
 import { ThirdProjectPhone } from "@/components/third-section/images/third-project-phone-image";
 import { MainLayout } from "@/components/third-section/main-layout";
 import { BrasilcardText, MaranataText, ProjectContentText, RubBankText, TitleText } from "@/components/third-section/typography/text";
+import { useTranslations } from "next-intl";
 
 export default function ThirdSection() {
+  const t = useTranslations('ThirdSection');
   return (
     <MainLayout>
-      <TitleText>Projetos</TitleText>
+      <TitleText>{t('Title')}</TitleText>
       <ProjectBlock>
         <FirstProjectBackground/>
         <ProjectBlockContent>
           <ProjectBlockContentLeft>
             <Container direction="column" alignment="start">
-              <RubBankText color="secondaryRubBank"><span translate="no">RUB</span></RubBankText>
-              <RubBankText><span translate="no">BANK</span></RubBankText>
+              <RubBankText color="secondaryRubBank"><span translate="no">{t('Rub')}</span></RubBankText>
+              <RubBankText><span translate="no">{t('Bank')}</span></RubBankText>
             </Container>
             <ProjectContentText>
-              Projeto de um banco digital completo, o <span translate="no">RUB BANK</span> foi criado em um bootcamp intensivo. Desenvolvi a solução de ponta a ponta: da API segura no backend ao aplicativo mobile com interface moderna, incluindo também a landing page de apresentação.
+              {t('RubBankContent')}
             </ProjectContentText>
           </ProjectBlockContentLeft>
           <ProjectBlockContentRight>
@@ -36,11 +39,11 @@ export default function ThirdSection() {
         <ProjectBlockContent>
           <ProjectBlockContentLeft>
             <Container direction="column" alignment="start">
-              <MaranataText type="primary"><span translate="no">MARANATA</span></MaranataText>
-              <MaranataText type="secondary"><span translate="no">CHURCH</span></MaranataText>
+              <MaranataText type="primary"><span translate="no">{t('Maranata')}</span></MaranataText>
+              <MaranataText type="secondary"><span translate="no">{t('Church')}</span></MaranataText>
             </Container>
             <ProjectContentText>
-              Este é um projeto desenvolvido de ponta a ponta para a <span translate="no">Maranata Church</span>, criando uma plataforma digital para centralizar a comunicação e a organização da comunidade. Como único designer e desenvolvedor, fui responsável por todo o ciclo do produto, desde o levantamento de requisitos com o cliente até a implementação e entrega da solução completa.
+              {t('MaranataChurchContent')}
             </ProjectContentText>
           </ProjectBlockContentLeft>
           <ProjectBlockContentRight>
@@ -54,10 +57,10 @@ export default function ThirdSection() {
         <ProjectBlockContent>
           <ProjectBlockContentLeft>
             <Container direction="column" alignment="start">
-              <BrasilcardText><span translate="no">BrasilCard</span></BrasilcardText>
+              <BrasilcardText><span translate="no">{t('BrasilCard')}</span></BrasilcardText>
             </Container>
             <ProjectContentText>
-              Participei como desenvolvedor frontend no projeto do aplicativo <span translate="no">BrasilCard,</span> uma plataforma completa para gerenciamento de cartões. Integrado a uma equipe de desenvolvimento, meu foco foi colaborar na construção da interface e da experiência do usuário.
+              {t('BrasilCardContent')}
             </ProjectContentText>
           </ProjectBlockContentLeft>
           <ProjectBlockContentRight>
