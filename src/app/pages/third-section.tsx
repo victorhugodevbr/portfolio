@@ -12,7 +12,7 @@ import { BrasilcardText, MaranataText, ProjectContentText, RubBankText, TitleTex
 export default function ThirdSection() {
   return (
     <MainLayout>
-      <TitleText>Projects</TitleText>
+      <TitleText>Projetos</TitleText>
       <ProjectBlock>
         <FirstProjectBackground/>
         <ProjectBlockContent>

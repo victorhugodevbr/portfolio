@@ -16,7 +16,7 @@ export default function SecondSection() {
         <PlasmaImage/>
       </LeftContainer>
       <RightContainer>
-        <TitleText>I specialize in</TitleText>
+        <TitleText>Sou especialista em</TitleText>
         <Container direction="column">
           <DescriptionBlock>
             <FirstDescriptionBackground/>

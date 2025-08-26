@@ -7,9 +7,9 @@ export default function FirstSection() {
   return (
     <MainLayout>
       <Container direction="column">
-        <Text size="lg">Hi, I am</Text>
+        <Text size="lg">Olá, eu sou</Text>
         <Text size="xl"><span translate="no">VICTOR HUGO</span></Text>
-        <Text size="md"><span translate="no">Full Stack</span> developer / UI & UX Designer</Text>
+        <Text size="md">Desenvolvedor <span translate="no">Full Stack</span> / <span translate="no">UI & UX</span> Designer</Text>
       </Container>
       <PersonalImage/>
     </MainLayout>

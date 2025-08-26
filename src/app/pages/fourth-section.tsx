@@ -21,10 +21,10 @@ export default function FourthSection() {
           <TitleText>Faq</TitleText>
           <Container direction="column" alignment="start" gap='8px'>
             <LeftBigText>
-              Frequently Asked Questions
+              Perguntas Frequentes
             </LeftBigText>
             <LeftInfoText size="lg">
-              If  you have any other questions, you can contact me by email
+              Qualquer outra dúvida podem entrar em contato comigo pelo e-mail:
             </LeftInfoText>
             <LeftInfoText size="md">
               <span translate="no">victorhugovicentedev@hotmail.com</span>
@@ -56,11 +56,11 @@ export default function FourthSection() {
       </TopContainer>
       <Container direction="row" alignment="center" justify="spaceBetween" width="100%">
         <LeftBottomContainer>
-          <Container direction="column" alignment="start" gap="24px">
+          <Container direction="column" alignment="center" gap="24px">
             <Container direction="row" alignment="center" gap="16px">
               <PersonalImage />
               <BottomBigText>
-                Let's build it together.
+                Vamos construir juntos
               </BottomBigText>
             </Container>
             <Container direction="row" alignment="center" gap="12px">
@@ -82,10 +82,10 @@ export default function FourthSection() {
         <RightBottomContainer>
           <TryMeImage/>
           <BottomBigText>
-            Try me out, risk free!
+            Lets go! Livre de riscos.
           </BottomBigText>
           <BottomSmallText>
-            Let's build something great together
+            Vamos construir algo incrível juntos.
           </BottomSmallText>
         </RightBottomContainer>
       </Container>
