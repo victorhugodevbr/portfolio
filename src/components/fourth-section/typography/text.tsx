@@ -72,7 +72,7 @@ export const AnswerText = styled('text', {
     textAlign: 'left',
     fontFamily: 'SF Pro Display',
     fontStyle: 'normal',
-    fontWeight: '300',
+    fontWeight: '400',
     lineHeight: '1.2',
     color: 'black',
     fontSize: '20px',

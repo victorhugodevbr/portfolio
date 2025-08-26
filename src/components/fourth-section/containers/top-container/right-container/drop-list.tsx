@@ -30,7 +30,7 @@ const Question = styled('div', {
 });
 
 
-export function FaqDropList({ title, answer }: { title: string; answer: string }) {
+export function FaqDropList({ title, answer }: { title: string; answer: React.ReactNode; }) {
   const [open, setOpen] = useState(false);
 
   return (

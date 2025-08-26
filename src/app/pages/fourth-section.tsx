@@ -33,20 +33,24 @@ export default function FourthSection() {
         </LeftTopContainer>
         <RightTopContainer>
           <FaqDropList 
-            title="Do you do web design or web development?" 
-            answer="Community files are design files creators have shared with the Community. Create templates for wireframe, UI kits, asset libraries, and design systems. Or share educational resources, interactive tutorials, and tools to use across the design process." 
+            title="Você é designer ou desenvolvedor?" 
+            answer="Sou um desenvolvedor com especialização em full-stack, mas meu maior diferencial é meu background em design UI/UX. Isso me dá uma visão mais técnica para o desenvolvimento front-end, pois consigo entender a lógica por trás da experiência do usuário. Assim, tomo decisões mais eficientes sobre a arquitetura dos componentes e a performance, garantindo que o resultado final seja fiel ao design." 
           />
           <FaqDropList 
-            title="Do you do web design or web development?" 
-            answer="Community files are design files creators have shared with the Community. Create templates for wireframe, UI kits, asset libraries, and design systems. Or share educational resources, interactive tutorials, and tools to use across the design process." 
+            title="Como você gerencia um projeto desde a concepção (design UI/UX) até a entrega final (desenvolvimento e deploy)?" 
+            answer="Eu gerencio o projeto de ponta a ponta, unindo a visão de design à execução técnica. Começo com o levantamento de requisitos e a criação do design (UI/UX), depois defino a arquitetura e desenvolvo o banco de dados, back-end e o front-end. Por fim, faço o deploy e garanto a manutenção, entregando uma solução coesa e completa." 
           />
           <FaqDropList 
-            title="Do you do web design or web development?" 
-            answer="Community files are design files creators have shared with the Community. Create templates for wireframe, UI kits, asset libraries, and design systems. Or share educational resources, interactive tutorials, and tools to use across the design process." 
+            title="Como você lida com mudanças de escopo ou feedbacks inesperados do cliente durante o projeto?" 
+            answer="Eu lido com mudanças de forma proativa. Analiso o impacto no projeto, discuto as opções com o desenvolvedor parceiro (quando tem), levo até o cliente e, em seguida, formalizo a decisão para garantir que as expectativas estejam sempre alinhadas." 
           />
           <FaqDropList 
-            title="Do you do web design or web development?" 
-            answer="Community files are design files creators have shared with the Community. Create templates for wireframe, UI kits, asset libraries, and design systems. Or share educational resources, interactive tutorials, and tools to use across the design process." 
+            title="O que você considera um projeto bem-sucedido e como você mede o sucesso?" 
+            answer={
+              <span>
+                Para mim, um projeto bem-sucedido é aquele que <b>resolve o problema do usuário</b>, atinge os objetivos de negócio e tem alta qualidade técnica. Meço o sucesso através do impacto gerado e de métricas como a satisfação do usuário, resultados de negócio (KPIs) e a performance da aplicação.
+              </span>
+            }
           />
         </RightTopContainer>
       </TopContainer>
@@ -62,13 +66,13 @@ export default function FourthSection() {
             <Container direction="row" alignment="center" gap="12px">
               <BlackButton link="https://www.linkedin.com/in/victor-hugo-vicente-dos-santos-05a259221">
                 <BlackButtonText>
-                  My Linkedin
+                  Meu Linkedin
                 </BlackButtonText>
                 <LinkedinIcon />
               </BlackButton>
-              <BlackButton link="https://drive.google.com/file/d/1bXHjv5n0YI3b2jQZlZ4p6k3c1H6kJv3g/view?usp=sharing">
+              <BlackButton link="https://github.com/victorhugodevbr">
                 <BlackButtonText>
-                  Download my resume
+                  Meu Github
                 </BlackButtonText>
                 <ResumeIcon />
               </BlackButton>
