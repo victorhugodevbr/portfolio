@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export const ResumeIcon = ({ open, ...props }: SVGProps<SVGSVGElement> & { open?: boolean }) => (
+export const ResumeIcon = ({ ...props }: SVGProps<SVGSVGElement>) => (
   <svg 
     width="33" 
     height="32" 
