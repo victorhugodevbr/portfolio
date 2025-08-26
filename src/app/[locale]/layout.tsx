@@ -1,20 +1,20 @@
 import { NextIntlClientProvider } from "next-intl";
-import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
+import type { ReactNode } from "react";
 
-export default async function LocaleLayout({
-  children,
-  params: { locale },
-}: {
+export default async function LocaleLayout(props: {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { children, params } = props;
+  const { locale } = await params;
+
   let messages;
   try {
     messages = await getMessages({ locale });
-  } catch (error) {
-    notFound();
+  } catch {
+    return notFound();
   }
 
   return (
