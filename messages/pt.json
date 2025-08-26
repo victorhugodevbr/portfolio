@@ -1,0 +1,46 @@
+{
+  "FirstSection": {
+    "First": "Olá, eu sou",
+    "Second": "VICTOR HUGO",
+    "Third": "Desenvolvedor Full Stack / Designer UI & UX"
+  },
+  "SecondSection": {
+    "Title": "Sou especialista em",
+    "FirstCardTitle": "Frontend Developer",
+    "FirstCardContent": "Desenvolvo interfaces modernas com Flutter, React e Next.js, priorizando acessibilidade, responsividade e design system para garantir consistência e usabilidade em escala.",
+    "SecondCardTitle": "Backend & Database",
+    "SecondCardContent": "Estruturo aplicações com arquitetura escalável, seguindo princípios de Clean Code, utilizando Prisma ORM e testes automatizados para garantir integrações confiáveis e manutenção eficiente.",
+    "ThirdCardTitle": "UI/UX Designer",
+    "ThirdCardContent": "Desenho experiências centradas no usuário com prototipação ágil, aplicação das heurísticas de Nielsen, design system consistente e foco em responsividade mobile-first."
+  },
+  "ThirdSection": {
+    "Title": "Projetos",
+    "Rub": "RUB",
+    "Bank": "BANK",
+    "RubBankContent": "Projeto de um banco digital completo, o RUB BANK foi criado em um bootcamp intensivo. Desenvolvi a solução de ponta a ponta: da API segura no backend ao aplicativo mobile com interface moderna, incluindo também a landing page de apresentação.",
+    "Maranata": "MARANATA",
+    "Church": "CHURCH",
+    "MaranataChurchContent": "Este é um projeto desenvolvido de ponta a ponta para a Maranata Church, criando uma plataforma digital para centralizar a comunicação e a organização da comunidade. Como único designer e desenvolvedor, fui responsável por todo o ciclo do produto, desde o levantamento de requisitos com o cliente até a implementação e entrega da solução completa.",
+    "BrasilCard": "BrasilCard",
+    "BrasilCardContent": "Participei como desenvolvedor frontend no projeto do aplicativo BrasilCard, uma plataforma completa para gerenciamento de cartões. Integrado a uma equipe de desenvolvimento, meu foco foi colaborar na construção da interface e da experiência do usuário."
+  },
+  "FourthSection": {
+    "Title": "Faq",
+    "Subtitle": "Perguntas Frequentes",
+    "Description": "Qualquer outra dúvida podem entrar em contato comigo pelo e-mail:",
+    "E-mail": "victorhugovicentedev@hotmail.com",
+    "FirstQuestion": "Você é designer ou desenvolvedor?",
+    "FirstAnswer": "Sou um desenvolvedor com especialização em full-stack, mas meu maior diferencial é meu background em design UI/UX. Isso me dá uma visão mais técnica para o desenvolvimento front-end, pois consigo entender a lógica por trás da experiência do usuário. Assim, tomo decisões mais eficientes sobre a arquitetura dos componentes e a performance, garantindo que o resultado final seja fiel ao design.",
+    "SecondQuestion": "Como você gerencia um projeto desde a concepção (design UI/UX) até a entrega final (desenvolvimento e deploy)?",
+    "SecondAnswer": "Eu gerencio o projeto de ponta a ponta, unindo a visão de design à execução técnica. Começo com o levantamento de requisitos e a criação do design (UI/UX), depois defino a arquitetura e desenvolvo o banco de dados, back-end e o front-end. Por fim, faço o deploy e garanto a manutenção, entregando uma solução coesa e completa.",
+    "ThirdQuestion": "Como você lida com mudanças de escopo ou feedbacks inesperados do cliente durante o projeto?",
+    "ThirdAnswer": "Eu lido com mudanças de forma proativa. Analiso o impacto no projeto, discuto as opções com o desenvolvedor parceiro (quando tem), levo até o cliente e, em seguida, formalizo a decisão para garantir que as expectativas estejam sempre alinhadas.",
+    "FourthQuestion": "O que você considera um projeto bem-sucedido e como você mede o sucesso?",
+    "FourthAnswer": "Para mim, um projeto bem-sucedido é aquele que resolve o problema do usuário, atinge os objetivos de negócio e tem alta qualidade técnica. Meço o sucesso através do impacto gerado e de métricas como a satisfação do usuário, resultados de negócio (KPIs) e a performance da aplicação.",
+    "PhotoSection": "Vamos construir juntos",
+    "BlockSectionTitle": "Lets go! Livre de riscos.",
+    "BlockSectionSubtitle": "Vamos construir algo incrível juntos.",
+    "FirstBlackButton": "Meu Linkedin",
+    "SecondBlackButton": "Meu GitHub"
+  }
+}
