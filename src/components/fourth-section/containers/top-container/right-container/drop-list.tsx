@@ -28,6 +28,12 @@ const Question = styled('div', {
   },
 });
 
+const IconContainer = styled('div', {
+  base: {
+    flexShrink: 0,
+  }
+})
+
 
 export function FaqDropList({ title, answer }: { title: string; answer: React.ReactNode; }) {
   const [open, setOpen] = useState(false);
@@ -36,7 +42,9 @@ export function FaqDropList({ title, answer }: { title: string; answer: React.Re
     <DropListContainer onClick={() => setOpen((v) => !v)}>
       <Question>
         <QuestionText>{title}</QuestionText>
-        <ArrowIcon open={open} />
+        <IconContainer>
+          <ArrowIcon open={open} />
+        </IconContainer>
       </Question>
       {open && (
         <AnswerText>{answer}</AnswerText>

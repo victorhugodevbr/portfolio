@@ -7,7 +7,7 @@ export const MainLayout = styled('section', {
     alignItems: 'start',
     justifyContent: 'start',
     minHeight: '100vh',
-    padding: '11.85vh 10.73vw',
+    padding: '11.85vh 10.73vw 5.93vh 10.73vw',
     position: 'relative',
     overflow: 'hidden',
     backgroundImage: "url('/images/fourth-section/fourth-section-background.png')",
