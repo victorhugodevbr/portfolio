@@ -1,7 +1,46 @@
 {
   "FirstSection": {
-    "first": "Hi, I am",
-    "second": "VICTOR HUGO",
-    "third": "Full Stack Developer / UI & UX Designer"
+    "First": "Hi, I am",
+    "Second": "VICTOR HUGO",
+    "Third": "Full Stack Developer / UI & UX Designer"
+  },
+  "SecondSection": {
+    "Title": "I specialize in",
+    "FirstCardTitle": "Frontend Development",
+    "FirstCardContent": "I develop modern interfaces with Flutter, React and Next.js, prioritizing accessibility, responsiveness and design systems to ensure consistency and usability at scale.",
+    "SecondCardTitle": "Backend & Database",
+    "SecondCardContent": "I structure applications with scalable architecture, following Clean Code principles, using Prisma ORM and automated tests to ensure reliable integrations and efficient maintenance.",
+    "ThirdCardTitle": "UI/UX Designer",
+    "ThirdCardContent": "I design user-centered experiences with agile prototyping, application of Nielsen heuristics, consistent design systems and a mobile-first responsiveness focus."
+  },
+  "ThirdSection": {
+    "Title": "Projects",
+    "Rub": "RUB",
+    "Bank": "BANK",
+    "RubBankContent": "A complete digital bank project, RUB BANK was created during an intensive bootcamp. I developed the solution end-to-end: from the secure backend API to the mobile app with a modern interface, also including the presentation",
+    "Maranata": "MARANATA",
+    "Church": "CHURCH",
+    "MaranataChurchContent": "This is an end-to-end project developed for Maranata Church, creating a digital platform to centralize communication and community organization. As the sole designer and developer, I was responsible for the entire product cycle, from gathering requirements with the client to implementing and delivering the complete solution.",
+    "BrasilCard": "BrasilCard",
+    "BrasilCardContent": "I participated as a frontend developer in the BrasilCard app project, a complete platform for card management. Integrated into a development team, my focus was to collaborate in building the interface and user experience."  
+  },
+  "FourthSection": {
+    "Title": "Faq",
+    "Subtitle": "Frequently Asked Questions",
+    "Description": "If you have any other questions, you can contact me by email:",
+    "E-mail": "victorhugovicentedev@hotmail.com",
+    "FirstQuestion": "Are you a designer or a developer?",
+    "FirstAnswer": "I am a developer specialized in full-stack, but my greatest asset is my background in UI/UX design. This gives me a more technical perspective for front-end development, as I understand the logic behind user experience. This way, I make more efficient decisions about component architecture and performance, ensuring the final result is true to the design.",
+    "SecondQuestion": "How do you manage a project from conception (UI/UX design) to final delivery (development and deployment)?",
+    "SecondAnswer": "I manage the project end-to-end, combining design vision with technical execution. I start with requirements gathering and UI/UX design, then define the architecture and develop the database, backend, and frontend. Finally, I handle deployment and maintenance, delivering a cohesive and complete solution.",
+    "ThirdQuestion": "How do you handle scope changes or unexpected client feedback during the project?",
+    "ThirdAnswer": "I handle changes proactively. I analyze the impact on the project, discuss options with my development partner (when there is one), bring them to the client, and then formalize the decision to ensure expectations are always aligned.",
+    "FourthQuestion": "What do you consider a successful project and how do you measure success?",
+    "FourthAnswer": "For me, a successful project is one that solves the user's problem, achieves business objectives, and has high technical quality. I measure success by the impact generated and metrics such as user satisfaction, business results (KPIs), and application performance.",
+    "PhotoSection": "Let's build it together.",
+    "BlockSectionTitle": "Try me out, risk free!",
+    "BlockSectionSubtitle": "Let's build something great together",
+    "FirstBlackButton": "My Linkedin",
+    "SecondBlackButton": "My GitHub"
   }
 }
