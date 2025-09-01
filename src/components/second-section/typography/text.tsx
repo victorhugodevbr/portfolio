@@ -3,11 +3,11 @@ import { styled } from 'styled-system/jsx';
 
 export const TitleText = styled('text', {
   base: {
-    textAlign: 'center',
+    textAlign: 'left',
     fontFamily: 'SF Pro Display',
     fontStyle: 'normal',
     fontWeight: '300',
-    lineHeight: '1.2',
+    lineHeight: '0.9',
     color: 'white',
     fontSize: 'clamp(24px, 2.1vw, 40px)',
     textShadow: '0px 0px clamp(2px, 0.5vw, 8px) white',
@@ -17,7 +17,7 @@ export const TitleText = styled('text', {
 
 export const CardTitleText = styled('text', {
   base: {
-    textAlign: 'center',
+    textAlign: 'left',
     fontFamily: 'SF Pro Display',
     fontStyle: 'normal',
     fontWeight: '600',
