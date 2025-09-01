@@ -22,7 +22,8 @@ export const Text = styled('text', {
       },
       xl: {
         fontSize: 'clamp(60px, 5vw, 96px)',
-        textShadow: '0px 0px clamp(8px, 1.5vw, 16px) white'
+        textShadow: '0px 0px clamp(8px, 1.5vw, 16px) white',
+        lineHeight: '0.9',
       },
     },
   },

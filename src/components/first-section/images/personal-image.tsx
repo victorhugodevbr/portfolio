@@ -5,7 +5,10 @@ import { useEffect, useRef, useState } from 'react';
 
 const ImageContainer = styled('div', {
   base: {
-    width: '33.23vw',
+    position: 'absolute',
+    bottom: '0',
+    zIndex: 0,
+    width: ['90vw', '50vw', '25vw'],
     aspectRatio: '1 / 1',
     overflow: 'hidden',
     backgroundImage: "url('/images/first-section/personal-image.png')",

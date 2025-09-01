@@ -9,11 +9,12 @@ export default function FirstSection() {
   const t = useTranslations('FirstSection');
   return (
     <MainLayout>
-      <Container direction="column">
+      <Container direction="column" height="100%" gap="1.5vh">
         <Text size="lg">{t('First')}</Text>
         <Text size="xl"><span translate="no">{t('Second')}</span></Text>
         <Text size="md">{t('Third')}</Text>
       </Container>
+      <Container height="100%"/>
       <PersonalImage/>
     </MainLayout>
   );
