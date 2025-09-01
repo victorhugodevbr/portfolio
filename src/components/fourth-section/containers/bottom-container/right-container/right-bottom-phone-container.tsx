@@ -1,9 +1,9 @@
 // src/components/Button.tsx
 import { styled } from 'styled-system/jsx';
 
-export const RightBottomContainer = styled('div', {
+export const RightBottomPhoneContainer = styled('div', {
   base: {
-    display: 'flex',
+    display: ['flex', 'flex', 'none'],
     position: 'relative',
     flexDirection: 'column',
     alignItems: 'center',

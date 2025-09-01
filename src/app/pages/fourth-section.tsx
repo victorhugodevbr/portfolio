@@ -14,80 +14,84 @@ import { BlackButton } from "@/components/fourth-section/containers/bottom-conta
 import { LinkedinIcon } from "@/components/fourth-section/assets/icons/linkedin";
 import { ResumeIcon } from "@/components/fourth-section/assets/icons/resume";
 import { useTranslations } from "next-intl";
+import { BottomContainer } from "@/components/fourth-section/containers/top-container/bottom-container";
+import { RightBottomPhoneContainer } from "@/components/fourth-section/containers/bottom-container/right-container/right-bottom-phone-container";
 
 export default function FourthSection() {
   const t = useTranslations('FourthSection');
   return (
-    <MainLayout>
-      <TopContainer>
-        <LeftTopContainer>
-          <TitleText>{t('Title')}</TitleText>
-          <Container direction="column" alignment="start" gap='8px'>
-            <LeftBigText>
-              {t('Subtitle')}
-            </LeftBigText>
-            <LeftInfoText size="lg">
-              {t('Description')}
-            </LeftInfoText>
-            <LeftInfoText size="md">
-              <span translate="no">{t('E-mail')}</span>
-            </LeftInfoText>
-          </Container>
-        </LeftTopContainer>
-        <RightTopContainer>
-          <FaqDropList 
-            title={t('FirstQuestion')} 
-            answer={t('FirstAnswer')} 
-          />
-          <FaqDropList 
-            title={t('SecondQuestion')}
-            answer={t('SecondAnswer')} 
-          />
-          <FaqDropList 
-            title={t('ThirdQuestion')}
-            answer={t('ThirdAnswer')} 
-          />
-          <FaqDropList 
-            title={t('FourthQuestion')} 
-            answer={t('FourthAnswer')}
-          />
-        </RightTopContainer>
-      </TopContainer>
-      <Container direction="row" alignment="center" justify="spaceBetween" width="100%">
-        <LeftBottomContainer>
-          <Container direction="column" alignment="center" gap="24px">
-            <Container direction="row" alignment="center" gap="16px">
-              <PersonalImage />
-              <BottomBigText>
-                {t('PhotoSection')}
-              </BottomBigText>
+    <Container direction="column">
+      <MainLayout>
+        <TopContainer>
+          <LeftTopContainer>
+            <TitleText>{t('Title')}</TitleText>
+            <Container direction="column" alignment="start" gap='8px'>
+              <LeftBigText>
+                {t('Subtitle')}
+              </LeftBigText>
+              <LeftInfoText size="lg">
+                {t('Description')}
+              </LeftInfoText>
+              <LeftInfoText size="md">
+                <span translate="no">{t('E-mail')}</span>
+              </LeftInfoText>
             </Container>
-            <Container direction="row" alignment="center" gap="12px">
-              <BlackButton link="https://www.linkedin.com/in/victor-hugo-vicente-dos-santos-05a259221">
-                <BlackButtonText>
-                  {t('FirstBlackButton')}
-                </BlackButtonText>
-                <LinkedinIcon />
-              </BlackButton>
-              <BlackButton link="https://github.com/victorhugodevbr">
-                <BlackButtonText>
-                  {t('SecondBlackButton')}
-                </BlackButtonText>
-                <ResumeIcon />
-              </BlackButton>
+          </LeftTopContainer>
+          <RightTopContainer>
+            <FaqDropList 
+              title={t('FirstQuestion')} 
+              answer={t('FirstAnswer')} 
+            />
+            <FaqDropList 
+              title={t('SecondQuestion')}
+              answer={t('SecondAnswer')} 
+            />
+            <FaqDropList 
+              title={t('ThirdQuestion')}
+              answer={t('ThirdAnswer')} 
+            />
+            <FaqDropList 
+              title={t('FourthQuestion')} 
+              answer={t('FourthAnswer')}
+            />
+          </RightTopContainer>
+        </TopContainer>
+        <BottomContainer>
+          <LeftBottomContainer>
+            <Container direction="column" alignment="center" gap="24px">
+              <Container direction="row" alignment="center" gap="16px">
+                <PersonalImage />
+                <BottomBigText>
+                  {t('PhotoSection')}
+                </BottomBigText>
+              </Container>
+              <Container direction="row" alignment="center" gap="12px">
+                <BlackButton link="https://www.linkedin.com/in/victor-hugo-vicente-dos-santos-05a259221">
+                  <BlackButtonText>
+                    {t('FirstBlackButton')}
+                  </BlackButtonText>
+                  <LinkedinIcon />
+                </BlackButton>
+                <BlackButton link="https://github.com/victorhugodevbr">
+                  <BlackButtonText>
+                    {t('SecondBlackButton')}
+                  </BlackButtonText>
+                  <ResumeIcon />
+                </BlackButton>
+              </Container>
             </Container>
-          </Container>
-        </LeftBottomContainer>
-        <RightBottomContainer>
-          <TryMeImage/>
-          <BottomBigText>
-            {t('BlockSectionTitle')}
-          </BottomBigText>
-          <BottomSmallText>
-            {t('BlockSectionSubtitle')}
-          </BottomSmallText>
-        </RightBottomContainer>
-      </Container>
-    </MainLayout>
+          </LeftBottomContainer>
+          <RightBottomContainer>
+            <TryMeImage/>
+            <BottomBigText>
+              {t('BlockSectionTitle')}
+            </BottomBigText>
+            <BottomSmallText>
+              {t('BlockSectionSubtitle')}
+            </BottomSmallText>
+          </RightBottomContainer>
+        </BottomContainer>
+      </MainLayout>
+    </Container>
   );
 }

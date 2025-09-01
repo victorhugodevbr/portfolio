@@ -113,7 +113,7 @@ export const BlackButtonText = styled('text', {
     fontWeight: '700',
     lineHeight: '1.2',
     color: 'white',
-    fontSize: '16px',
+    fontSize: 'clamp(14px, 1.2vw, 18px)',
     whiteSpace: 'nowrap',
   },
 });
