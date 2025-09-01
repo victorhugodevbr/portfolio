@@ -22,7 +22,7 @@ export const RubBankText = styled('text', {
     fontWeight: '900',
     lineHeight: '0.9',
     color: 'white',
-    fontSize: '128px',
+    fontSize: 'clamp(64px, 8vw, 128px)',
   },
   variants: {
     color: {
@@ -58,11 +58,12 @@ export const MaranataText = styled('text', {
     type: {
       primary: {
         color: 'secondaryMaranata',
-        fontSize: '96px',
+        fontSize: 'clamp(48px, 6vw, 96px)',
       },
       secondary: {
         color: 'primaryMaranata',
-        fontSize: '48px',
+        fontSize: 'clamp(24px, 3vw, 48px)',
+        textShadow: ['0px 0px clamp(10px, 0vw, 20px) rgba(0, 0, 0, 0.3)', '0 0'],
       },
     },
   },
@@ -76,6 +77,6 @@ export const BrasilcardText = styled('text', {
     fontWeight: '600',
     lineHeight: '0.9',
     color: 'white',
-    fontSize: '96px'
+    fontSize: 'clamp(48px, 6vw, 96px)'
   },
 });

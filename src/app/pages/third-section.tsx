@@ -1,4 +1,5 @@
 'use client';
+
 import { Container } from "@/components/containers";
 import { ProjectBlock, ProjectBlockContent, ProjectBlockContentLeft, ProjectBlockContentRight } from "@/components/third-section/containers/project";
 import { FirstProjectBackground } from "@/components/third-section/images/first-project-background";
