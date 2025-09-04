@@ -9,13 +9,27 @@ export const MainLayout = styled('section', {
     alignItems: 'center',
     justifyContent: 'flex-start',
     padding: ['0 3.2vw', '0 10.73vw'],
-    overflow: 'hidden',
+    overflow: ['hidden'],
     backgroundImage: "url('/images/third-section/third-section-background.png')",
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
     gap: '2vw',
     minHeight: '100vh',
     width: '100%',
-    aspectRatio: ['0', '0', '1920 / 2842'],
+    aspectRatio: ['0', 'auto', '1920 / 2842'],
   },
+  variants: {
+    responsive: {
+      smallScreen: {
+        '@media (max-width: 1468px)': {
+          overflow: 'auto',
+          aspectRatio: 'auto',
+          backgroundSize: 'cover',
+        }
+      }
+    }
+  },
+  defaultVariants: {
+    responsive: 'smallScreen'
+  }
 });

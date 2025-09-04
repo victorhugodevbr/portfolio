@@ -10,7 +10,7 @@ export const RightContainer = styled('div', {
     alignItems: 'start',
     justifyContent: 'start',
     width: '100%',
-    paddingTop: ['0', '7vh', '7vh'],
+    paddingTop: ['5vh', '7vh', '7vh'],
     padding: '0 2.6vw 5.93vh 2.6vw',
     gap: '2.78vh',
   },

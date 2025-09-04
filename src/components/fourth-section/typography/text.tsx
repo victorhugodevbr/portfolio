@@ -23,6 +23,8 @@ export const LeftBigText = styled('text', {
     lineHeight: '0.9',
     color: 'white',
     fontSize: '64px',
+    overflowWrap: 'break-word',
+    lineBreak: ['anywhere', 'auto', 'auto'],
   },
 });
 
@@ -94,7 +96,7 @@ export const BottomBigText = styled('text', {
 
 export const BottomSmallText = styled('text', {
   base: {
-    textAlign: 'start',
+    textAlign: 'center',
     fontFamily: 'SF Pro Display',
     fontStyle: 'normal',
     fontWeight: '300',

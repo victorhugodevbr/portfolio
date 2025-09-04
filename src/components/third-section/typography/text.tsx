@@ -45,10 +45,10 @@ export const ProjectContentText = styled('text', {
   },
 });
 
-
 export const MaranataText = styled('text', {
   base: {
     textAlign: 'start',
+    lineBreak: ['anywhere', 'auto', 'auto'],
     fontFamily: 'Montserrat',
     fontStyle: 'normal',
     fontWeight: '700',
@@ -72,6 +72,7 @@ export const MaranataText = styled('text', {
 export const BrasilcardText = styled('text', {
   base: {
     textAlign: 'start',
+    lineBreak: 'anywhere',
     fontFamily: 'Roboto Slab',
     fontStyle: 'normal',
     fontWeight: '600',

@@ -15,7 +15,6 @@ import { LinkedinIcon } from "@/components/fourth-section/assets/icons/linkedin"
 import { ResumeIcon } from "@/components/fourth-section/assets/icons/resume";
 import { useTranslations } from "next-intl";
 import { BottomContainer } from "@/components/fourth-section/containers/top-container/bottom-container";
-import { RightBottomPhoneContainer } from "@/components/fourth-section/containers/bottom-container/right-container/right-bottom-phone-container";
 import { BlackButtonContainer } from "@/components/fourth-section/containers/bottom-container/left-container/black-button-container";
 
 export default function FourthSection() {
