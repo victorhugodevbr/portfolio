@@ -25,7 +25,7 @@ export const ProjectBlockContent = styled('div', {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
-    padding: ['8vh 8vw' , '11.29vh 6.29vw'],
+    padding: ['8vh 8vw' , '10vh 8vw', '20vh 6.29vw'],
     gap: '3.33vw',
   },
 });

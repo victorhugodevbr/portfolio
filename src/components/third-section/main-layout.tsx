@@ -8,7 +8,7 @@ export const MainLayout = styled('section', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    padding: ['0 3.2vw', '0 10.73vw'],
+    padding: ['0 3.2vw', '0 3.2vw', '0 10.73vw'],
     overflow: ['hidden'],
     backgroundImage: "url('/images/third-section/third-section-background.png')",
     backgroundSize: '100% 100%',
@@ -16,20 +16,20 @@ export const MainLayout = styled('section', {
     gap: '2vw',
     minHeight: '100vh',
     width: '100%',
-    aspectRatio: ['0', 'auto', '1920 / 2842'],
+    // aspectRatio: ['auto', 'auto', '1920 / 2842'],
   },
-  variants: {
-    responsive: {
-      smallScreen: {
-        '@media (max-width: 1468px)': {
-          overflow: 'auto',
-          aspectRatio: 'auto',
-          backgroundSize: 'cover',
-        }
-      }
-    }
-  },
-  defaultVariants: {
-    responsive: 'smallScreen'
-  }
+  // variants: {
+  //   responsive: {
+  //     smallScreen: {
+  //       '@media (max-width: 1468px)': {
+  //         overflow: 'auto',
+  //         aspectRatio: 'auto',
+  //         backgroundSize: 'cover',
+  //       }
+  //     }
+  //   }
+  // },
+  // defaultVariants: {
+  //   responsive: 'smallScreen'
+  // }
 });
