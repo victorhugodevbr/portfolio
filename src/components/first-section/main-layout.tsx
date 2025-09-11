@@ -7,7 +7,7 @@ export const MainLayout = styled('section', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    height: '100vh',
+    height: '100dvh',
     paddingTop: ['8vh', '10vh', '11.85vh'],
     padding: '0 4vw',
     position: 'relative',
