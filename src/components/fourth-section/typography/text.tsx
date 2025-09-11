@@ -22,9 +22,9 @@ export const LeftBigText = styled('text', {
     fontWeight: '700',
     lineHeight: '0.9',
     color: 'white',
-    fontSize: '64px',
+    fontSize: 'clamp(36px, 5vw, 64px)',
     overflowWrap: 'break-word',
-    lineBreak: ['anywhere', 'auto', 'auto'],
+    lineBreak: ['anywhere', 'auto', 'auto', 'auto'],
   },
 });
 
