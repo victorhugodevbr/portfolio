@@ -58,7 +58,7 @@ export const MaranataText = styled('text', {
     type: {
       primary: {
         color: 'secondaryMaranata',
-        fontSize: 'clamp(48px, 6vw, 96px)',
+        fontSize: 'clamp(44px, 6vw, 96px)',
       },
       secondary: {
         color: 'primaryMaranata',

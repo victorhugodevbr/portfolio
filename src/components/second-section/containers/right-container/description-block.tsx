@@ -8,7 +8,7 @@ export const DescriptionBlockContent = styled('div', {
     alignItems: 'start',
     justifyContent: 'center',
     flexDirection: 'column',
-    padding: ['6vh', '6.85vh', '8.85vh'],
+    padding: ['8vh 11vw', '6.85vh', '8.85vh'],
     gap: 'clamp(4px, 1.5vw, 10px)',
   },
 });

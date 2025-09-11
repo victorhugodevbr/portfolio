@@ -4,7 +4,7 @@ import { styled } from 'styled-system/jsx';
 export const BottomContainer = styled('div', {
   base: {
     display: 'flex',
-    flexDirection: ['column', 'column', 'row'],
+    flexDirection: ['column', 'column', 'column', 'row'],
     alignItems: 'center',
     justifyContent: 'space-between',
     width: '100%',

@@ -23,9 +23,9 @@ export const ProjectBlockContent = styled('div', {
     display: 'flex',
     zIndex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     flexDirection: 'row',
-    padding: ['8vh 8vw' , '10vh 8vw', '20vh 6.29vw'],
+    padding: ['7vh 8vw' , '10vh 8vw', '10vh 8vw', '2vh 5vw', '10vh 5vw', '20vh 6.29vw'],
     gap: '3.33vw',
   },
 });
@@ -46,8 +46,8 @@ export const ProjectBlockContentLeft = styled('div', {
 export const ProjectBlockContentRight = styled('div', {
   base: {
     display: 'flex',
-    position: ['absolute', 'absolute', 'relative'],
-    opacity: ['0', '0', '1'],
+    position: ['absolute', 'absolute', 'absolute', 'relative'],
+    opacity: ['0', '0', '0', '1'],
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',

@@ -13,6 +13,6 @@ export const MainLayout = styled('section', {
     backgroundImage: "url('/images/fourth-section/fourth-section-background.png')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    gap: ['5vh', '2vh'],
+    gap: ['5vh', '5vh', '5vh', '2vh'],
   },
 });
